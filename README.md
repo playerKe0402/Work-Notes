@@ -22,11 +22,11 @@ vim /etc/apt/sources.list
 deb http://mirrors.ustc.edu.cn/kali kali-rolling main non-free contrib
 deb-src http://mirrors.ustc.edu.cn/kali kali-rolling main non-free contrib
 
-#阿里云
+#阿里雲
 deb http://mirrors.aliyun.com/kali kali-rolling main non-free contrib
 deb-src http://mirrors.aliyun.com/kali kali-rolling main non-free contrib
 
-#清华大学
+#清大
 deb http://mirrors.tuna.tsinghua.edu.cn/kali kali-rolling main contrib non-free
 deb-src https://mirrors.tuna.tsinghua.edu.cn/kali kali-rolling main contrib non-free
 
@@ -34,7 +34,7 @@ deb-src https://mirrors.tuna.tsinghua.edu.cn/kali kali-rolling main contrib non-
 deb http://mirrors.zju.edu.cn/kali kali-rolling main contrib non-free
 deb-src http://mirrors.zju.edu.cn/kali kali-rolling main contrib non-free
 
-#东软大学
+#東軟大
 deb http://mirrors.neusoft.edu.cn/kali kali-rolling/main non-free contrib
 deb-src http://mirrors.neusoft.edu.cn/kali kali-rolling/main non-free contrib
 
