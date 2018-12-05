@@ -43,3 +43,29 @@ deb http://http.kali.org/kali kali-rolling main non-free contrib
 deb-src http://http.kali.org/kali kali-rolling main non-free contrib
 ```
 
+## Discover index 解釋
+|index|Description|Event ID|Description|
+|:----:|:----|
+|atp* ||
+|autorun-* ||
+|dhcp* ||
+|dns-* ||
+|elastalert ||
+|elastalert_error ||
+|elastalert_status ||
+|freenas-* ||
+|metricbeat* ||
+|nmap* ||
+|officesan-* ||
+|other* ||
+|pa3020* ||
+|proxy-* ||
+|service ||
+|softwareasset-* ||
+|sslvpnnew* ||
+|sslvpnold* ||
+|usg-* ||
+|winlogbeat*||
+|xecprobe-* ||
+|zyxelsocedr-* ||
+
