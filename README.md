@@ -45,7 +45,7 @@ deb-src http://http.kali.org/kali kali-rolling main non-free contrib
 
 ## Discover index 解釋
 
-|index|Description|
+|Index|Description|
 |:----:|:----|
 |atp* ||
 |autorun-* ||
@@ -70,3 +70,20 @@ deb-src http://http.kali.org/kali kali-rolling main non-free contrib
 |xecprobe-* ||
 |zyxelsocedr-* ||
 
+## 常見詞彙
+EDR
+```
+Endpoint Detection and Response(端點偵測及回應解決方案)
+EDR 是自動化鑑識的流程，是去分析軌跡而不只是去掃惡意程式。
+例如，某端點一掃，沒有發現病毒但事實上已被入侵，因為駭客不一定要安裝病毒或後門，只要新增一個帳號，就可以從外連線進來，放置可疑的檔案。即使駭客攻擊主程式變成已知的惡意程式後，就可被掃毒軟體刪掉，但駭客可以隨時再回來，再安裝新的後門。
+```
+
+ELK
+```
+ELK 是由 Elasticsearch、Logstash 及 Kibana 三個系統所組成的 Log 蒐集、分析、查詢系統。
+```
+
+ATP
+```
+
+```
