@@ -47,28 +47,28 @@ deb-src http://http.kali.org/kali kali-rolling main non-free contrib
 
 |Index|Description|
 |:----:|:----|
-|atp* ||
+|atp* |防火牆|
 |autorun-* |管理Windows啟動程式工具|
 |dhcp* ||
 |dns-* ||
 |elastalert |Elasticsearch 監控日誌警告|
 |elastalert_error ||
-|elastalert_status ||
+|elastalert_status |alert 狀態|
 |freenas-* |伺服器系統|
 |metricbeat* |輕量型指標蒐集器|
 |nmap* ||
-|officesan-* ||
+|officesan-* |防毒軟體|
 |other* ||
 |pa3020* |防火牆|
 |proxy-* |代理|
 |service |伺服器|
-|softwareasset-* ||
+|softwareasset-* |軟體安裝清單|
 |sslvpnnew* ||
 |sslvpnold* ||
 |usg-* |網路安全設備(整合式安全閘道器)|
-|winlogbeat*||
+|winlogbeat*|系統日誌(Event)|
 |xecprobe-* |端點惡意程式鑑識系統|
-|zyxelsocedr-* ||
+|zyxelsocedr-* |EDR|
 |filebeat-* |輕量級開源日誌文件數據蒐集器|
 
 ## 常見詞彙
