@@ -51,7 +51,7 @@ deb-src http://http.kali.org/kali kali-rolling main non-free contrib
 |autorun-* |管理Windows啟動程式工具|
 |dhcp* ||
 |dns-* ||
-|elastalert ||
+|elastalert |Elasticsearch 監控日誌警告|
 |elastalert_error ||
 |elastalert_status ||
 |freenas-* |伺服器系統|
@@ -59,15 +59,15 @@ deb-src http://http.kali.org/kali kali-rolling main non-free contrib
 |nmap* ||
 |officesan-* ||
 |other* ||
-|pa3020* ||
-|proxy-* ||
-|service ||
+|pa3020* |防火牆|
+|proxy-* |代理|
+|service |伺服器|
 |softwareasset-* ||
 |sslvpnnew* ||
 |sslvpnold* ||
-|usg-* ||
+|usg-* |網路安全設備(整合式安全閘道器)|
 |winlogbeat*||
-|xecprobe-* ||
+|xecprobe-* |端點惡意程式鑑識系統|
 |zyxelsocedr-* ||
 
 ## 常見詞彙
@@ -89,6 +89,11 @@ Managed Detection and Response(託管式偵測及回應)
 ELK
 ```
 ELK 是由 Elasticsearch、Logstash 及 Kibana 三個系統所組成的 Log 蒐集、分析、查詢系統。
+Elasticsearch 是一個分佈式，可擴展，實時的搜索與數據分析引擎。
+Logstash 是一款輕量級的日誌蒐集處理框架，可以方便的把分散(多樣化)的日誌蒐集起來，並進行自定義的處理，然後傳輸到指定的位置。
+Kibana 是一個開源的分析與可視化平台，設計出來用於和Elasticsearch一起使用的。
+可以用kibana 搜索/查看/交互存放在Elasticsearch 索引裡的數據，
+使用各種不同的圖表，表格，地圖等kibana能夠很輕易地展示高級數據分析與可視化。
 ```
 
 ATP
@@ -106,3 +111,8 @@ FreeNAS
 是一套基於FreeBSD作業系統核心的開放原始碼的網路儲存裝置(NAS)伺服器系統，支援眾多服務，使用者存取權限管理，提供網頁設定介面。
 ```
 
+USG
+```
+ZyWALL USG 100(產品名稱)是針對中小企業設計的網路安全設備(平台)，整合了防火牆、入侵偵測與防禦、
+內容過濾、防毒、垃圾信件過濾、以及虛擬私人網路(VPN)等功能。
+```
