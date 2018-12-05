@@ -45,7 +45,7 @@ deb-src http://http.kali.org/kali kali-rolling main non-free contrib
 
 ## Discover index 解釋
 
-|index|Description|Event ID|Description|
+|index|Description|
 |:----:|:----|
 |atp* ||
 |autorun-* ||
