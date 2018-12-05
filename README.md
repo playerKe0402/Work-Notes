@@ -55,7 +55,7 @@ deb-src http://http.kali.org/kali kali-rolling main non-free contrib
 |elastalert_error ||
 |elastalert_status ||
 |freenas-* |伺服器系統|
-|metricbeat* |輕量型指標收集器|
+|metricbeat* |輕量型指標蒐集器|
 |nmap* ||
 |officesan-* ||
 |other* ||
@@ -69,6 +69,7 @@ deb-src http://http.kali.org/kali kali-rolling main non-free contrib
 |winlogbeat*||
 |xecprobe-* |端點惡意程式鑑識系統|
 |zyxelsocedr-* ||
+|filebeat-* |輕量級開源日誌文件數據蒐集器|
 
 ## 常見詞彙
 EDR
