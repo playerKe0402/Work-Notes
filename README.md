@@ -71,6 +71,13 @@ deb-src http://http.kali.org/kali kali-rolling main non-free contrib
 |zyxelsocedr-* |EDR|
 |filebeat-* |輕量級開源日誌文件數據蒐集器|
 
+## Selected Fields
+|Index|Description|
+|:----:|:----|
+|beat.hostname |回傳log的電腦名稱|
+|event_data.WorkstationName |連到的電腦名稱|
+|event_data.TargetUserName |登入的帳號|
+
 ## 常見詞彙
 EDR
 ```
